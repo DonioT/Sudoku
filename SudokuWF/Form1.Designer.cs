@@ -32,6 +32,7 @@
             this.New_Game = new System.Windows.Forms.Button();
             this.Solve = new System.Windows.Forms.Button();
             this.ValidateResultLabel = new System.Windows.Forms.Label();
+            this.SolveResultLabel = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // Validate
@@ -70,17 +71,27 @@
             // ValidateResultLabel
             // 
             this.ValidateResultLabel.AutoSize = true;
-            this.ValidateResultLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
-            this.ValidateResultLabel.Location = new System.Drawing.Point(160, 505);
+            this.ValidateResultLabel.Font = new System.Drawing.Font(ValidateResultLabel.Font.FontFamily, 9);
+            this.ValidateResultLabel.Location = new System.Drawing.Point(160, 507);
             this.ValidateResultLabel.Name = "ValidateResultLabel";
             this.ValidateResultLabel.Size = new System.Drawing.Size(0, 15);
             this.ValidateResultLabel.TabIndex = 3;
+            // 
+            // SolveResultLabel
+            // 
+            this.SolveResultLabel.AutoSize = true;
+            this.SolveResultLabel.Location = new System.Drawing.Point(160, 465);
+            this.SolveResultLabel.Font = new System.Drawing.Font(SolveResultLabel.Font.FontFamily, 9);
+            this.SolveResultLabel.Name = "SolveResultLabel";
+            this.SolveResultLabel.Size = new System.Drawing.Size(35, 13);
+            this.SolveResultLabel.TabIndex = 0;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(517, 548);
+            this.Controls.Add(this.SolveResultLabel);
             this.Controls.Add(this.ValidateResultLabel);
             this.Controls.Add(this.Solve);
             this.Controls.Add(this.New_Game);
@@ -100,6 +111,7 @@
         private System.Windows.Forms.Button New_Game;
         private System.Windows.Forms.Button Solve;
         private System.Windows.Forms.Label ValidateResultLabel;
+        private System.Windows.Forms.Label SolveResultLabel;
     }
 }
 

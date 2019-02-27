@@ -70,6 +70,7 @@ namespace SudokuWF
                     previousX = textBox.Left;
                     textBox.Top = previousY;
                     textBox.BringToFront();
+                    textBox.KeyPress += new KeyPressEventHandler(textBox_KeyPress);
 
                     
                   textBoxes.Add(textBox);
@@ -80,15 +81,27 @@ namespace SudokuWF
             }
         }
 
+        private void textBox_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (!char.IsControl(e.KeyChar) && !char.IsDigit(e.KeyChar))
+            {
+                e.Handled = true;
+            }
+        }
+
         private void Validate_Click(object sender, EventArgs e)
         {
             ValidateResultLabel.Text = Solvers.ValidateSolution(GrabGUIData()) ? "Good Job! You solved it!" : "Sorry! There appears to be an error in your solution";
         }
 
+        
+
      
         private async void NewGame_Click(object sender, EventArgs e)
         {
             ValidateResultLabel.Text = "";
+            SolveResultLabel.Text = "";
+
             Task<List<int[,]>> worker = new Task<List<int[,]>>(Generators.GenerateRandomPuzzle);
             worker.Start();
 
@@ -125,6 +138,8 @@ namespace SudokuWF
         private void SolveButton_Click(object sender, EventArgs e)
         {
             ValidateResultLabel.Text = "";
+            SolveResultLabel.Text = "";
+
             int[,] boardData = GrabGUIData();
             if (Solvers.SolvableBoard(boardData))
             {
@@ -137,10 +152,12 @@ namespace SudokuWF
                     tb.Text = value;
                     tb.Enabled = String.IsNullOrWhiteSpace(value) ? true : false;
                 }
+
+                SolveResultLabel.Text = "A solution was found";
             }
             else
             {
-                ValidateResultLabel.Text = "This board is not solvable! Check for errors";
+                SolveResultLabel.Text = "This board is not solvable! Check for errors";
             }
            
         }
