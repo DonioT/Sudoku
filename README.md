@@ -34,12 +34,12 @@ Currently the application inputs a valid input into a minimum of 17 random squar
 
 # Screenshots
 
-[Starting up](https://imgur.com/BW65duS)
-[Pacman gif while generating a new puzzle] (https://imgur.com/rOyrrgw)
-[New Game clicked] (https://imgur.com/ArRWJrP)
-[Checking answer] (https://imgur.com/cqpDjfv)
-[Getting the solution solved for you] (https://imgur.com/Ho12RyC)
-[An error on your board] (https://imgur.com/wJ0EgoP)
++ [Starting up](https://imgur.com/BW65duS)
++ [Pacman gif while generating a new puzzle] (https://imgur.com/rOyrrgw)
++ [New Game clicked] (https://imgur.com/ArRWJrP)
++ [Checking answer] (https://imgur.com/cqpDjfv)
++ [Getting the solution solved for you] (https://imgur.com/Ho12RyC)
++ [An error on your board] (https://imgur.com/wJ0EgoP)
 
 
 
