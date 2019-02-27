@@ -14,7 +14,7 @@ Luckily I came across some great articles, most importantly [This one](http://no
 
 Currently the application inputs a valid input into a minimum of 17 random squares before then feeding this board to the solver method to check if this mixture of numbers has a solution. Usually this process takes under 0.5 seconds, in edge cases it can take 30 seconds - 1 minute. 
 
-##Performance improvements that could possibly be made to this project (who knows if they will work or even be better)
+## Performance improvements that could possibly be made to this project (who knows if they will work or even be better)
 
 The solver could be improved to update the order of the available squares based on valid inputs remaining after each input. Updated squares would need to know their 'parent' square in order to revert back if a dead end is reached.
 
@@ -24,7 +24,7 @@ Instead of creating a random puzzle whenever a player clicks new game. A puzzle 
 
 I need to add in more error handling (I haven't added much).
 
-##Feature improvements that could be made
+## Feature improvements that could be made
 
 The GUI could be made much more aesthetically pleasing by porting this project to be a web app instead of a console application. Allowing me much more freedom. 
 
