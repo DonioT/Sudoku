@@ -1,0 +1,9 @@
+c:\users\donio\documents\visual studio 2015\Projects\SudokuWF\SudokuWF\bin\Debug\SudokuWF.exe.config
+c:\users\donio\documents\visual studio 2015\Projects\SudokuWF\SudokuWF\bin\Debug\SudokuWF.exe
+c:\users\donio\documents\visual studio 2015\Projects\SudokuWF\SudokuWF\bin\Debug\SudokuWF.pdb
+c:\users\donio\documents\visual studio 2015\Projects\SudokuWF\SudokuWF\obj\Debug\SudokuWF.csprojResolveAssemblyReference.cache
+c:\users\donio\documents\visual studio 2015\Projects\SudokuWF\SudokuWF\obj\Debug\SudokuWF.Form1.resources
+c:\users\donio\documents\visual studio 2015\Projects\SudokuWF\SudokuWF\obj\Debug\SudokuWF.Properties.Resources.resources
+c:\users\donio\documents\visual studio 2015\Projects\SudokuWF\SudokuWF\obj\Debug\SudokuWF.csproj.GenerateResource.Cache
+c:\users\donio\documents\visual studio 2015\Projects\SudokuWF\SudokuWF\obj\Debug\SudokuWF.exe
+c:\users\donio\documents\visual studio 2015\Projects\SudokuWF\SudokuWF\obj\Debug\SudokuWF.pdb
