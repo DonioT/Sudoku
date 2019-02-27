@@ -1,6 +1,6 @@
 # Sudoku Game
 
-This started with me creating a sudoku puzzle validator (checking if the solution was true), but I wanted to create something more. So I set out to create a sudoku game. This mini-project was just something for me to do for fun and at first I wanted to create this 'my-way', but this proved in-effective. 
+This started with me creating a sudoku puzzle validator (checking if the solution was true), but I wanted to create something more. So I set out to create a sudoku game. This mini-project was just something for me to do for fun and at first I wanted to create this 'my-way', but this proved in-effective.
 
 ## Attempt 1
 
